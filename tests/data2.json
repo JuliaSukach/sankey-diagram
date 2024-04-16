@@ -1,0 +1,40 @@
+{
+    "nodes": [
+        {"name": "Africa"},
+        {"name": "East Asia"},
+        {"name": "Europe"},
+        {"name": "Latin America"},
+        {"name": "North America"},
+        {"name": "Oceania"},
+        {"name": "South Asia"},
+        {"name": "South East Asia"},
+        {"name": "Soviet Union"},
+        {"name": "West Asia"}
+    ],
+    "links": [
+        {"source": "Africa", "target": "Europe", "value": 2.107883},
+        {"source": "Africa", "target": "North America", "value": 0.540887},
+        {"source": "Africa", "target": "Oceania", "value": 0.155988},
+        {"source": "Africa", "target": "South Asia", "value": 0.673004},
+        {"source": "East Asia", "target": "Europe", "value": 0.601265},
+        {"source": "East Asia", "target": "North America", "value": 0.97306},
+        {"source": "East Asia", "target": "Oceania", "value": 0.333608},
+        {"source": "East Asia", "target": "South East Asia", "value": 0.380388},
+        {"source": "East Asia", "target": "Soviet Union", "value": 0.869311},
+        {"source": "Latin America", "target": "Europe", "value": 1.762587},
+        {"source": "Latin America", "target": "North America", "value": 3.627847},
+        {"source": "North America", "target": "Europe", "value": 0.276908},
+        {"source": "Oceania", "target": "Europe", "value": 0.17037},
+        {"source": "South Asia", "target": "East Asia", "value": 0.525881},
+        {"source": "South Asia", "target": "Europe", "value": 1.390272},
+        {"source": "South Asia", "target": "North America", "value": 1.508008},
+        {"source": "South Asia", "target": "Oceania", "value": 0.34742},
+        {"source": "South Asia", "target": "Soviet Union", "value": 0.0},
+        {"source": "South East Asia", "target": "Europe", "value": 0.468762},
+        {"source": "South East Asia", "target": "North America", "value": 1.057904},
+        {"source": "South East Asia", "target": "Oceania", "value": 0.278746},
+        {"source": "Soviet Union", "target": "Europe", "value": 0.60923},
+        {"source": "West Asia", "target": "Europe", "value": 0.449623},
+        {"source": "West Asia", "target": "North America", "value": 0.169274}
+    ]
+  }

@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.graph {
+    vertical-align: baseline;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    font: inherit;
+}
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.app-shell * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.app-shell {
+    width: 100%;
+    max-width: 100%;
+    font-family: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.app-shell .container {
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.app-shell .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: #000d23;
+}
+
+.app-shell .container {
+    margin: 0 auto;
+    background-color: #FFFFFF !important;
+}
+
+.app-shell:first-child .container {
+    border-radius: 0;
+}
+
+.app-shell div[class$="-component-container"]{
+    margin-bottom: 60px;
+}
+
+.app-shell .row {
+    display: initial;
+    -ms-flex-wrap: initial;
+    flex-wrap: initial;
+}
+
+.app-shell button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.app-shell div, .app-shell p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+@media (min-width: 1400px) {
+    .app-shell .container .sankey-component-container {
+        max-width: 1639px;
+    }
+}
+
+@media (max-width:1023px) {
+    .app-shell .sankey-component-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width:1024px) {
+    .sankey-component-container {
+        width: calc(100% - 40px);
+    }
+}
+
+.sankey-component-container {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    width: 90%;
+    max-width: 1140px;
+    height: auto;
+    padding: 24px !important;
+    border-radius: 14px;
+}
+
+.sankey-component-container {
+    background-color: #FFFFFF !important;
+}
+
+.sankey-component-container .chart-wrapper {
+    width: 55%;
+    height: auto;
+}
+
+.sankey-component-container .chart-wrapper .chart-header {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.sankey-component-container .chart-wrapper .chart-header p {
+    color: #031A34 !important;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.sankey-component-container .data-wrapper {
+    width: 45%;
+    height: auto;
+    padding-top: 34px;
+    padding-left: 48px;
+}
+
+.sankey-component-container .data-wrapper .row {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.sankey-component-container .data-wrapper .block {
+    margin-top: 20px;
+}
+
+
+.sankey-component-container .data-wrapper .row.targets {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.sankey-component-container .data-wrapper .row.targets {
+    color: #031A34 !important;
+}
+
+.sankey-component-container .data-wrapper .row.targets .target {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+}
+
+.sankey-component-container .data-wrapper .target .gutter{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    margin-right: 8px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<!-- Include D3-sankey plugin -->
+<script src="https://unpkg.com/d3-array@1"></script>
+<script src="https://unpkg.com/d3-collection@1"></script>
+<script src="https://unpkg.com/d3-path@1"></script>
+<script src="https://unpkg.com/d3-shape@1"></script>
+<script src="https://unpkg.com/d3-sankey@0"></script>
+
+<link rel="stylesheet" href="styles.css">
+
+<!-- Create a div where the graph will take place -->
+<div class="graph">
+    <div class="app-shell">
+        <div class="container">
+            <div class="sankey-component-container">
+                <div class="chart-wrapper">
+                    <div class="chart-header">
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="chart"></div>
+                </div>
+                <div class="data-wrapper">
+                    <div class="row">
+                        <p class="selected-node">Total</p>
+                    </div>
+                    <div id="selected-block" class="block"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
